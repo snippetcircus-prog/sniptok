@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Content Sync - Documentation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f4f7f6;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        header {
+            border-bottom: 2px solid #00f2ea; /* TikTok Cyan */
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 { color: #010101; margin-bottom: 5px; }
+        h2 { color: #fe2c55; margin-top: 40px; border-left: 4px solid #fe2c55; padding-left: 15px; } /* TikTok Pink */
+        h3 { color: #444; }
+        p { margin-bottom: 15px; }
+        .nav {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+        .nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #00f2ea;
+            font-weight: bold;
+        }
+        .nav a:hover { color: #fe2c55; }
+        footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: #888;
+            text-align: center;
+        }
+        .badge {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Creator Content Sync <span class="badge">Local Tool</span></h1>
+        <p>Private Management Dashboard for Content Creators</p>
+    </header>
+
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#tos">Terms of Service</a>
+    </div>
+
+    <section id="about">
+        <h2>About the Application</h2>
+        <p><strong>Creator Content Sync</strong> is a locally-hosted desktop utility built with Streamlit. It is designed specifically for independent creators to manage their original video portfolio and sync content to their TikTok profile via the official TikTok Content Posting API.</p>
+        <p>This tool allows users to:</p>
+        <ul>
+            <li>Select original video files from local storage.</li>
+            <li>Edit titles, descriptions, and metadata locally.</li>
+            <li>Preview content before publishing.</li>
+            <li>Directly upload and publish to their authenticated TikTok account.</li>
+        </ul>
+        <p><em>Note: This application is for private, local use and is not a public-facing SaaS platform.</em></p>
+    </section>
+
+    <section id="privacy">
+        <h2>Privacy Policy</h2>
+        <p><strong>Last Updated: April 2024</strong></p>
+        <h3>1. Data Processing</h3>
+        <p>The App operates locally on the user's hardware. It does not collect, store, or transmit user data to any external servers owned by the developer.</p>
+        <h3>2. TikTok API Usage</h3>
+        <p>The App uses the following TikTok API scopes:</p>
+        <ul>
+            <li><strong>user.info.basic:</strong> To display the profile name of the logged-in creator.</li>
+            <li><strong>video.upload:</strong> To securely transfer the user's selected video files to TikTok's servers.</li>
+        </ul>
+        <h3>3. Data Security</h3>
+        <p>All authentication tokens are stored locally on the user's machine. The developer has no access to these tokens or the user's content.</p>
+    </section>
+
+    <section id="tos">
+        <h2>Terms of Service</h2>
+        <p><strong>Last Updated: April 2024</strong></p>
+        <h3>1. Usage Agreement</h3>
+        <p>By using this local tool, you agree to comply with TikTok's Community Guidelines and Terms of Service. This tool is intended for the publication of original content for which the user holds all necessary rights.</p>
+        <h3>2. Prohibited Content</h3>
+        <p>Users shall not use this tool to upload copyrighted material they do not own, nor use it for automated spamming or harassment.</p>
+        <h3>3. Limitation of Liability</h3>
+        <p>The developer provides this tool "as-is" and is not responsible for any account actions taken by TikTok resulting from the use of the API.</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Creator Content Sync Dashboard. Built for the TikTok Developer Program.
+    </footer>
+</div>
+
+</body>
+</html>
